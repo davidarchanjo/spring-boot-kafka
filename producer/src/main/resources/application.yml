@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+kafka:
+  config:
+    bootstrap:
+      server: 'localhost:9092'
+    group:
+      id: gp-cadastro-aposentadoria
+    topic:
+      id: tp-saldo-aposentadoria

@@ -17,25 +17,25 @@ From the project's folder, execute:
 
 ## Booting Applications
 
-- Initializing `producer`
+- Initializing the `producer`
 ````bash
 $ cd producer
 $ mvn spring-boot:run
 ````
-**Note:** The Producer will be available at `http://localhost:8080/orders` accepting request.
+**Note:** The `producer` will be accepting request at `http://localhost:8080/orders`
 
 
-- Initializing `consumer`
+- Initializing the `consumer`
 ````bash
 $ cd consumer
 $ mvn spring-boot:run
 ````
-**Note:** The Consumer has no endpoint, it just connects to the Kafka to listen to the stream events.
+**Note:** The `consumer` has no endpoint, it just connects to the Kafka to listen to the stream events.
 
 
 ## Testing 
 
-With both `consumer` and `producer` applications up and running, we can test their integration through Kafka:
+With both `consumer` and `producer` applications up and running, let's test their integration through Kafka:
 ````bash
 $ curl -d "{'idorder': '1234', 'customer': 'Foo Bar', 'value': 4321}" \
 -H "Content-Type: application/json" \

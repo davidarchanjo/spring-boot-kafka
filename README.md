@@ -12,7 +12,7 @@
 
 From the project's folder, execute:
 - `docker-compose up` to initialize Kafka and Zookeeper
-- `mvn clean package` to build the applications
+- `mvn package` to build the applications
 
 
 ## Booting Applications

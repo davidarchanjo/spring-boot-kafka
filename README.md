@@ -50,3 +50,13 @@ and something like in the `consumer` application's console:
 ````
 2021-07-07 06:23:26.490  INFO 3996 --- [ntainer#0-0-C-1] b.c.d.consumer.kafka.KafkaConsumer       : Order: {"idorder": "12345", "customer": "Foo Bar", "value": 54321}
 ````
+
+
+## Cleaning Up
+After playing around, we need to clean up the mess.. So from the project's folder, do:
+<ol>
+<li>Stop the containers using the following command:</li>
+  <code>docker-compose down</code>
+<li>Delete all containers using the following command:</li>
+  <code>docker rm -f $(docker ps -a -q)</code>
+</ol> 

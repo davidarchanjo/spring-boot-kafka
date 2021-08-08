@@ -1,5 +1,5 @@
 # Docker Compose + Kafka + Spring Boot
-![background](./assets/background.jpg)
+![banner](./assets/banner.jpg)
 
 ## Overview
 This project aims to be a reference for those just starting to work with Java and SpringBoot in which there is a need to build an inner communication between microservices through events via Kafka. To speed up the setup of the development environment, a dockercompose is provided to provision the necessary infrastructure, i.e. Kafka and Zookeeper. **Be aware of the proposed infrastructure is suitable for development and not for production operation.**

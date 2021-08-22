@@ -1,4 +1,4 @@
-package br.com.darchanjo.consumer.config;
+package br.com.example.davidarchanjo.config;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package br.com.darchanjo.producer.kafka;
+package br.com.example.davidarchanjo.kafka;
 
 import java.util.UUID;
 

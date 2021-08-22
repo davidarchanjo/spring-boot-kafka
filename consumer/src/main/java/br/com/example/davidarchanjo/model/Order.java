@@ -1,4 +1,4 @@
-package br.com.darchanjo.consumer.model;
+package br.com.example.davidarchanjo.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

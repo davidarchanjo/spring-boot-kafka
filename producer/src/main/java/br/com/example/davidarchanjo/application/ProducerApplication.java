@@ -1,4 +1,4 @@
-package br.com.darchanjo.producer;
+package br.com.example.davidarchanjo.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

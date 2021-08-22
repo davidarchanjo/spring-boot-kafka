@@ -1,4 +1,4 @@
-package br.com.darchanjo.producer.config;
+package br.com.example.davidarchanjo.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.beans.factory.annotation.Value;

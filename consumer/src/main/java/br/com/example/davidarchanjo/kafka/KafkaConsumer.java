@@ -1,6 +1,6 @@
-package br.com.darchanjo.consumer.kafka;
+package br.com.example.davidarchanjo.kafka;
 
-import br.com.darchanjo.consumer.model.Order;
+import br.com.example.davidarchanjo.model.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
